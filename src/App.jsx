@@ -1,6 +1,6 @@
 import React from 'react'
-import UsersList from './UsersList'
-import TodoList from './TodoList'
+import SearchUsers from './UsersList'
+import SearchTodos from './TodoList'
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
       <h2>Higher Order Components</h2>
       <div className="section">
         <div>
-          <UsersList/>
+          <SearchUsers/>
         </div>
         <div>
-          <TodoList/>
+          <SearchTodos/>
         </div>
         
       </div>
